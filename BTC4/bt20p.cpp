@@ -22,7 +22,6 @@ private:
 public:
     DonThuc() : heSo(0), soMu(0) {}
     DonThuc(double h, int s) : heSo(h), soMu(s) {}
-    DonThuc(const DonThuc &other) : heSo(other.heSo), soMu(other.soMu) {}
 
     void input()
     {

@@ -57,16 +57,7 @@ public:
             return;
         rutGon();
     }
-    PhanSo(const PhanSo &other) : tu(other.tu), mau(other.mau) {}
-    ~PhanSo() {}
-    PhanSo &operator=(const PhanSo &other)
-    {
-        if (this == &other)
-            return *this;
-        tu = other.tu;
-        mau = other.mau;
-        return *this;
-    }
+    
     void input()
     {
         cout << "Nhap tu va mau: ";

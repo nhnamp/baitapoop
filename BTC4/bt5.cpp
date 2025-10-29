@@ -29,8 +29,6 @@ public:
     cBook() : maSach(""), tenSach(""), namXuatBan(0), tongSoTrang(0) {}
     cBook(string ma, string ten, int nam, int trang)
         : maSach(ma), tenSach(ten), namXuatBan(nam), tongSoTrang(trang) {}
-    cBook(const cBook &other)
-        : maSach(other.maSach), tenSach(other.tenSach), namXuatBan(other.namXuatBan), tongSoTrang(other.tongSoTrang) {}
 
     void input()
     {
